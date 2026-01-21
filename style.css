@@ -6,10 +6,14 @@
   font-weight: 400;
   font-style: normal;
 }
+body{
+   background-image: url('/assets/bg.png');
+   height: 2591px;
+   width: 1440px;
+}
 body>header, main{
    padding: 0 140px;
    padding-right: 140px;
-   max-width: 1440px;
 }
 /* Shared Style */
 .display-flex{
@@ -198,6 +202,7 @@ body>header, main{
 .box{
    margin-top: 50px;
    gap: 10px;
+   margin-bottom: 50px;
 }
 .btn-3{
    width: 40px;
@@ -206,4 +211,55 @@ body>header, main{
    border: none;
    background-color: #F0AA00;
    color: white;
+}
+/* Stories Section */
+.stories{
+   margin-top: 60px;
+   height: 1040px;
+   width: 1440px;
+}
+.stories-container{
+   width: 1160px;
+   height: 650px;
+   gap: 10px;
+}
+.stories-header{
+   font-size: 2.9rem;
+   font-weight: bold;
+   
+}
+.story-card-container{
+   height: 630px;
+   width: 545px;
+   margin-top: 90px;
+}
+.btn-4{
+   color:#FFFFFF;
+   background-color: #95B226;
+   border-radius: 48px;
+   height: 48px;
+   margin-top: -1000px;
+   margin-left: 10px;
+}
+.card-header{
+   font-size: 1.5rem;
+   font-weight: bold;
+   width: 402px;
+   height: 70px;
+}
+.card-story{
+   font-size: 1rem;
+   font-weight: 200;
+   width: 433.06px;
+   height: 76px;
+}
+.story-card-container-2{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   height: 650px;
+}
+.story-card-container-20{
+   height: 301px;
+   width: 290px;
+   margin-right: 20px;
 }
