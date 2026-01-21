@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body>header, main{
+   padding: 0 140px;
+   padding-right: 140px;
+   max-width: 1440px;
+}
+/* Shared Style */
+.display-flex{
+   display: flex;
+
+}
+
+/* Header style */
+/* Nav-Bar style */
+.nav-bar{
+   justify-content: space-around;
+}
+.nav-container{
+ height: 62px;
+ width: 202px;
+ align-items: center;
+}
+.logo{
+   max-width: 62px;
+   max-width: 62px;
+}
+.nav-header{
+   justify-items: first baseline;
+   font-size: 2rem;
+   font-weight: 700;
+}
+.link{
+   list-style: none;
+   margin-right: 16px;
+}
+
+.nav{
+   text-decoration: none;
+   font-size: 1.25rem;
+   font-weight: 700;
+}
+#home{
+   color: #FEA301;
+}
+#about{
+   color: #01ACFD;
+}
+#facilities{
+   color: #05D4DF;
+}
+#admission{
+   color: #5D58EF;
+}
+.btn-container{
+   margin-top: 10px;
+   align-items: center;
+}
+.btn-1{
+   width: 100px;
+   padding: 10px 10px;
+   background-color: #FEA301;
+   color: white;
+   border-radius: 8px;
+   border:none;
+   font-weight: 700;
+}
+/* Banner design */
+.banner{
+   margin-top: 15px;
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
+   max-width: 1158px;
+   height: 575px;
+   margin-bottom: 60px;
+}
+.banner-text-container{
+   width: 640px;
+   height: 331px;
+}
+.banner-title{
+   font-size: 3.5rem;
+   font-weight: 700;
+   line-height: 3rem;
+
+}
+#empower{
+   color: #FEA301;
+}
+#vision{
+   color: #01ACFD;
+}
+.banner-description{
+ font-size: 1.2rem;  
+ margin-top: 10px;
+ font-weight: 100;
+ color: black;
+}
+#enroll{
+   background-color: black;
+}
+.image-1{
+   height: 575px;
+   justify-content: center;
+}
+.curriculum{
+   margin-top: 60px;
+}
+.curriculum-header{
+   font-size: 2.9rem;
+   font-weight: bold;
+   text-align: center;
+}
+.card-container{
+   justify-content: space-between;
+   gap: 24px;
+}
+.card-1{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 8px;
+   background: linear-gradient(
+      180deg,
+      #DEF5FF 0%,
+      #FFFFFF 60%
+   );
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+.card-header{
+   font-size: 1.5rem;
+   font-weight: bold;
+   line-height: 30.7px;
+}
+.card-description{
+   font-size: 1rem;
+   font-weight: 100;
+   line-height: 28.3px;
+   text-align: center;
+}
+.read-1{
+   font-size: 1rem;
+   text-decoration: none;
+   font-weight: bold;
+   color:#64C8FF;
+   padding-bottom: 50px;
+}
+
+.card-2{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 8px;
+   background: linear-gradient(
+      180deg,
+      #FFF4DC 0%,
+      #FFFFFF 60%
+   );
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+.read-2{
+   font-size: 1rem;
+   text-decoration: none;
+   font-weight: bold;
+   color: #F0AA00;
+   padding-bottom: 50px;
+}
+.card-3{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 8px;
+   background: linear-gradient(
+      180deg,
+      #F2E8FF 0%, 
+      #FFFFFF 60%
+   );
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+.read-3{
+   font-size: 1rem;
+   text-decoration: none;
+   font-weight: bold;
+   color: #8700ff;
+   margin-bottom: 50px;
+}
+.box{
+   justify-content: center;
+   gap: 25px;
+}
+.box{
+   margin-top: 50px;
+   gap: 10px;
+}
+.btn-3{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: none;
+   background-color: #F0AA00;
+   color: white;
+}
